@@ -1,4 +1,11 @@
-﻿#. "C:\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\Scripts\Initialize-PowerCLIEnvironment.ps1" $true
+# Uncomment below line to make import PowerCLI module
+#. "C:\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\Scripts\Initialize-PowerCLIEnvironment.ps1" $true
+
+# Uncomment below line to Connect to your vCenter server
+# Connect-VIServer vCenterServer.YourDomain.com -Credential $(get-credential)
+
+# Both above commands need to run before you can run this script
+
 $VMotions = @()
 $FromStorage = $null
 $FromESX = $null
@@ -51,4 +58,5 @@ get-vm | foreach {
 
 }
 
+# vMotion report is saved in $VMotions variable
 $VMotions
