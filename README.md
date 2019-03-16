@@ -17,7 +17,6 @@ Just open up PowerCLI on your computer and connect to vCenter and then run the s
 
 In the end, the script will present your all the vMotions that were done in your environment.
 
-<b>*Note</b>: TimeSpan is in minutes and I have test this on VMware 5.5 version.
 
 ### Requirements:
 PowerCLI and Access to vCenter and VM events.
@@ -31,6 +30,6 @@ Just open up PowerCLI and connect to vCenter using `Connect-VIServer vCenterServ
 
 ![Script Run](/Media/Images/Report.png)
 
-*Note: TimeSpan is in minutes.
+<b>*Note</b>: TimeSpan is in minutes and I have test this on VMware 5.5 version.
 
 Your can read more about this [here.](https://www.linkedin.com/pulse/get-vmware-vmotion-performance-report-loveparteek-tiwana/)
