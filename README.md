@@ -1,4 +1,4 @@
-# Get-VMware-VMotion-Reports
+# Get-VMwareVMotionReports
 
 Ever wonder how much time it takes to vMotion your VMs from datastore to datastore or host to host?
 
