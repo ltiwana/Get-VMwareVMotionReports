@@ -17,12 +17,10 @@ Just open up PowerCLI on your computer and connect to vCenter and then run the s
 
 In the end, the script will present your all the vMotions that were done in your environment.
 
-<b>*Note</b>: TimeSpan is in minutes.
+<b>*Note</b>: TimeSpan is in minutes and I have test this on VMware 5.5 version.
 
 ### Requirements:
 PowerCLI and Access to vCenter and VM events.
-
-*Note: I have tested this on VMware 5.5 version. 
 
 ### How to run:
 Just open up PowerCLI and connect to vCenter using `Connect-VIServer vCenterServerName` and then run the script:
